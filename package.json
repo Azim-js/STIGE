@@ -1,0 +1,22 @@
+{
+  "name": "fame-game",
+  "version": "1.0.0",
+  "description": "This example is so cool.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "azim",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.9.8"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}

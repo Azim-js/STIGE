@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewports" content="width=device-width , initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <!-- <script src="main.js" defer></script> -->
+        <title>Famey Gamming</title>
+        
+    </head>
+    <body>
+        <section class="view">
+            <header>
+            <h2 class="logo">Famey Gamming</h2>
+            <div class="toggle"></div>
+            </header>
+            
+            <video src="game.mp4" muted loop autoplay></video>
+            <div class='layer'></div>
+
+            <div class="text">
+                <h2> Streaming is inevitable </h2>
+                <h3>NICE TO MEET YOU MY FRIEND</h3>
+                <p><b>Famey gamming </b>allows you to stream and play <b><i>24/7</i></b> and connects you to the perfect audience</p>
+                <a href="#">BEGIN</a>
+                <br/>
+                <a href="#">WATCH</a>
+            </div>
+            <ul class="social">
+                <li><a><img src="facebook.png" alt="fb"/></li></a>
+                <li><a><img src="instagram.png" alt="insta"/></li></a>
+                <li><a><img src="twitter.png" alt="twitter"/></li></a>
+            </ul>
+
+            <footer>
+                ~ DEVELOPED BY AZIM
+            </footer>
+        </section>
+        <div class="menu">
+            <ul>
+                <li><a href='#'>HOME</a></li>
+                <li><a href='#'>PLAY</a></li>
+                <li><a href='#'>STREAM</a></li>
+                <li><a href='#'>NEWS</a></li>
+            </ul>
+        </div>
+        <script>
+            const menuButton=document.querySelector('.toggle');
+const view=document.querySelector('.view');
+
+menuButton.addEventListener('click',()=>{
+      menuButton.classList.toggle('active');
+      view.classList.toggle('active');
+      })
+
+        </script>
+        
+        
+    </body>
+</html>
