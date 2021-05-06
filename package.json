@@ -1,22 +1,23 @@
 {
-  "name": "fame-game",
+  "name": "stige-1",
   "version": "1.0.0",
-  "description": "This example is so cool.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main"
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azim-js/STIGE.git"
   },
   "keywords": [
-    "example",
     "heroku"
   ],
   "author": "azim",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.9.8"
+  "bugs": {
+    "url": "https://github.com/Azim-js/STIGE/issues"
   },
-  "engines": {
-    "node": "14.x"
-  }
+  "homepage": "https://github.com/Azim-js/STIGE#readme"
 }
