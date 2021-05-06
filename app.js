@@ -6,7 +6,7 @@ const fs = require('fs');
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.get('/', (req, res) => {
-    // fs.readFile(__dirname, +'index.html');
+    fs.readFile(__dirname, +'index.html');
     res.writeHead(200, { 'content-type': 'text/html' });
     fs.createReadStream('index.html').pipe(res);
   });
