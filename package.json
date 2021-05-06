@@ -2,10 +2,10 @@
   "name": "stige-1",
   "version": "1.0.0",
   "description": "This example is so cool.",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "keywords": [
     "heroku"
