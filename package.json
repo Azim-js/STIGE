@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "keywords": [
     "heroku"
@@ -16,7 +16,7 @@
     "url": "https://github.com/Azim-js/STIGE/issues"
   },
   "dependencies": {
-    "express": "^4.9.8"
+    "express": "^4.17.1"
   },
   "engines": {
     "node": "14.x"
